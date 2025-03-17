@@ -7,26 +7,33 @@ let x = 3
 let y = 10
 let z = 5
 let name = "Mary"
-let greeting = "HEY" 
+let greeting = "HEY"
+//let a = 4
+//let b = 15
 
-
-function multiply(n){
-   x *= n
+function multiply(factor){//multiply x by the given parameter, x should be 45
+   x = 45
+   x = x * 3
+   
+ 
+}
+  
+function modYBy(){//runs a modulus operation on y, y should be 2
+    y = y % 4
 }
 
-function modYBy(modulus){
-   y %= modulus 
+
+function opposite(x){//sets z to the opposite of the given number, z should be -3
+  z = -x
 }
 
-function opposite(opp){
-  z =  - opp
-}
-
-function makeFullName(Rose){
+function makeFullName(Rose){//adds a space and the parameter to name,name, oldName + ' Rose', 
+// 'name should be the full name
   name = name + " " + 'Rose'
 }
 
-function yellAt(Kyle){
+function yellAt(Kyle){//makes greeting into a string that yells the greeting at someone`
+  //yellAt('Kyle');greeting, 'HEY, Kyle!', 'greeting should be yelled
   greeting = greeting + ',' + " " + Kyle + '!'
 }
 
